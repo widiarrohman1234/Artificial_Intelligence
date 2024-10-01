@@ -1,0 +1,6 @@
+# Splitting
+Memisahkan sebuah atribut menjadi atribut-atribut baru juga merupakan salah satu cara yang berguna. Dengan splitting kita membuat atribut lebih mudah dipahami oleh model machine learning. Di lapangan sering kita temui data dengan kolom string melanggar prinsip tidy data (Hadley Wickham). Memisahkan sebagian data dalam kolom menjadi fitur baru memberikan keuntungan antara lain: 1) meningkatkan performa model dengan menemukan informasi berharga; dan 2) membuat kita lebih mudah untuk melakukan proses binning dan grouping.
+
+Ada beberapa cara untuk melakukan fungsi split, tergantung pada karakteristik kolom. Mari kita ambil salah satu contoh kasus. Sebuah atribut dengan judul `“ram_hardisk”` yang berisi informasi mengenai besar ram dan penyimpanan dari harddisk. Kita dapat memisahkan atribut tersebut menjadi `“ram”` dan `“storage”` untuk memudahkan model mendapatkan informasi lebih banyak dari atribut baru.
+
+Contoh lain adalah kolom `‘full_name’`. Misal kita hanya membutuhkan informasi nama hanya terdiri dari satu kata. Maka, kita dapat membagi atribut pada kolom nama dengan memisahkan data `‘first_name’` dan `‘last_name’` kemudian menggunakan salah satu atribut baru tersebut sesuai kebutuhan.
