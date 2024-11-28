@@ -1,2 +1,2 @@
 # Hello
-selamat datang di repository, selamat belajar.
+semua materi yang ada disini telah dipindahkan ke repository berikut, silahkan kunjungi berikut [link](https://github.com/widiarrohman1234/widiarrohman1234.github.io/tree/master/Artificial_Intelligence)
